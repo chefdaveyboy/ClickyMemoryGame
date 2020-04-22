@@ -1,18 +1,22 @@
 import React from "react";
-import image from "../images/jerry.jpg";
+import "./card.css"
+
+
 
 
 
 function ImageCard(props) {
     return (
-        <div className="card">
+        <div>
+        <div className="card col">
             <img 
             className="card-img" 
-            alt="alt"
-            src={image}
-            // onClick={}
+            alt= {props.name}
+            src={props.image}
+            onClick = {() => props.clicked(props.id)}
             />
             
+        </div>
         </div>
     )
 }

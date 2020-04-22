@@ -1,0 +1,76 @@
+
+[
+    {
+        "id": 1,
+        "name": "george",
+        "clicked": false,
+        "image": "images/george.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Elaine",
+        "clicked": false,
+        "image": "images/elaine.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Frank",
+        "clicked": false,
+        "image": "images/frank.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Jackie",
+        "clicked": false,
+        "image": "images/jackie.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Jerry",
+        "clicked": false,
+        "image": "images/jerry.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Kramer",
+        "clicked": false,
+        "image": "images/kramer.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Larry",
+        "clicked": false,
+        "image": "images/larry.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Newman",
+        "clicked": false,
+        "image": "images/newman.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Peterman",
+        "clicked": false,
+        "image": "images/peterman.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Puddy",
+        "clicked": false,
+        "image": "images/puddy.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Soup Nazi",
+        "clicked": false,
+        "image": "images/soup-nazi.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Susan",
+        "clicked": false,
+        "image": "images/susan.jpg"
+    }
+
+]

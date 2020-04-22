@@ -1,17 +1,17 @@
 import React from "react";
 
-function Header() {
+function Header(props) {
     return (
         <div>
-            <nav className="navbar sticky-top navbar-light bg-light">
+            <nav className="navbar fixed-top navbar-light bg-light">
                 <div className="col">
-                    <h1 className="float-left">Clicky Game</h1>
+                    <h1 className="float-left">Seinfeld Clicky Game</h1>
                 </div>
                 <div className="col">
-                    <h2 className="text-center">Click an image to begin!</h2>
+                    <h2 className="text-center">{props.direction}</h2>
                 </div>
                 <div className="col">
-                    <h2 className="float-right">Score: 0 | Top Score: 0</h2>
+                    <h2 className="float-right">Score: {props.score} | Top Score: {props.topScore}</h2>
                 </div>
             </nav>
         </div>

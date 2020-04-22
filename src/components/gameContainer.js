@@ -1,34 +1,13 @@
-import React, { Component } from "react";
-import ImageCard from "./card";
-import { render } from "@testing-library/react";
+import React from "react";
 
 
-
-class GameContainer extends Component {
-
-    state = {
-
-    }
-
-    render() {
-        return (
-            <div>
-                <div className="container">
-                    <div className="card-columns">
-                        <ImageCard />
-                        <ImageCard />
-                    </div>
-                </div>
-            </div>
-        )
-    }
-
-
-
+function GameContainer(props) {
+    return (
+        <div className = "container">
+            <div className="row">{props.children}</div>
+            <div className="row"></div>
+        </div>
+    )
 }
-
-
-
-
 
 export default GameContainer;

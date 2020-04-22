@@ -1,0 +1,13 @@
+.card {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.card-img {
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+}
